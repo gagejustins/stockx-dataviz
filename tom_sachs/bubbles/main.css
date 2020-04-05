@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Ringside";
+    src:url("fonts/RingsideCondensed-Semibold.otf");
+}
+
+body {
+    padding: 30px 30px 30px 30px;
+    font-family: Ringside, sans-serif;
+}
+
+#bubbles-toolbar-button {
+    background-color: #9B6E4E;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.sneaker-viz .dropdown-item {
+    font-family: var(--main-body-font);
+    &:hover,
+    &:focus {
+        background-color: black;
+        color: white;
+    }
+}
+
+.sneaker-viz a.dropdown-item.active {
+    background-color: black !important;
+    color: white;
+}
+
+div#item-tooltip.tooltip {
+    background: white;
+    color: black;
+    padding: 15px 15px 10px 15px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px #B8B8B8;
+    text-align: left;
+}
+
+div#divider {
+    width: 60%;
+    border-bottom: 1px solid rgb(204, 202, 202);
+    margin: 4px 0px 5px 0px;
+}
+
+div#item-tooltip.tooltip span.value p {
+    font-weight: normal;
+    padding: 4px 0px 0px 0px;
+    margin: 0px;
+}
+
+div#item-tooltip.tooltip span.value p span.subtext {
+    color: #cEcEcE;
+    margin-left: 5px;
+}
+
+h5 {
+    font-size: 1.2em;
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  font-family: Ringside, sans-serif;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: black;
+  transition: .5s;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+text.category {
+    font-weight: bold;
+    font-size: 1.2em;
+}

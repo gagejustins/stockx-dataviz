@@ -1,0 +1,26 @@
+
+#tiers-chart .axis {
+	font-family: Ringside, sans-serif;
+	font-weight: bold;
+}
+
+#tiers-chart .line {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+
+#tiers-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#tiers-chart .focus circle {
+  fill: none;
+  stroke: red;
+}
+
+#tiers-chart .focus text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+}

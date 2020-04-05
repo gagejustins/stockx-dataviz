@@ -1,0 +1,14 @@
+
+#aj1_vs_container .chart {
+	display: flex;
+	width: 900px;
+}
+
+#aj1_vs_container text.value_text {
+	font-family: Ringside, sans-serif;
+	fill: #4A9C2D;
+	font-size: 1.05em;
+	text-anchor: middle;
+	font-weight: bold;
+
+}

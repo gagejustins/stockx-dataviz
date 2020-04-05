@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Ringside";
+    src:url("fonts/RingsideCondensed-Semibold.otf");
+}
+
+body {
+	padding: 10px 20px 10px 20px;
+	font-family: Futura, sans-serif;
+	font-style: italic;
+}

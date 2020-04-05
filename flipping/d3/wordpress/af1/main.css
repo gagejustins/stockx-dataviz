@@ -1,0 +1,26 @@
+#af1-chart .axis {
+	font-family: Ringside, sans-serif;
+	font-weight: bold;
+}
+
+#af1-chart .line {
+  fill: none;
+  stroke: #FF6E1B;
+  stroke-width: 2px;
+}
+
+#af1-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#af1-chart .focus circle {
+  fill: none;
+  stroke: #FF6E1B;
+}
+
+#af1-chart .focus text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}

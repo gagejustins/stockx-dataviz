@@ -1,0 +1,42 @@
+#jordans-chart-container .axis {
+    font-family: Ringside, sans-serif;
+    font-weight: bold;
+    font-size: .7em;
+}
+
+#jordans-chart-container .line {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+
+#jordans-chart-container .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#jordans-chart-container .focus circle {
+  fill: none;
+  stroke: red;
+}
+
+#jordans-chart-container .focus text {
+    font-family: Ringside, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+#jordans-chart-container {
+  display:flex;
+}
+
+#jordans-chart-container .chart {
+    height: 600px;
+    width:100%;
+}
+
+#jordans-chart-container .legend text {
+    font-family: Helvetica, sans-serif;
+    font-size: .7em;
+    font-weight: bold;
+}

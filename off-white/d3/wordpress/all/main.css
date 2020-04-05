@@ -1,0 +1,49 @@
+#all-off-white-container .axis {
+    font-family: Ringside, sans-serif;
+    font-weight: bold;
+  	font-size: .7em;
+}
+
+#all-off-white-container .line {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+
+#all-off-white-container .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#all-off-white-container .focus circle {
+  fill: none;
+  stroke: red;
+}
+
+#all-off-white-container .focus text {
+    font-family: Ringside, sans-serif;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+#all-off-white-container {
+  display:flex;
+}
+
+#all-off-white-container .chart {
+    height: 600px;
+    width:70%;
+}
+
+#all-off-white-container .legend-container {
+    height: 500px;
+    overflow-y: scroll;
+    z-index: 1;
+    width:30%;
+}
+
+#all-off-white-container .legend text {
+    font-family: Helvetica, sans-serif;
+    font-size: .7em;
+    font-weight: bold;
+}

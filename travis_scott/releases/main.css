@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Ringside-Semibold";
+    src:url("fonts/RingsideCondensed-Semibold.otf");
+}
+@font-face {
+    font-family: "Ringside";
+    src:url("fonts/RingsideCondensed-Light.otf");
+}
+
+html {
+	background-color: #FFFFFF;
+}
+
+h1 {
+	margin-left: 30px;
+	font-family: Ringside-Semibold, sans-serif;
+}
+
+body {
+	padding: 10px 20px 10px 20px;
+	font-family: Ringside, sans-serif;
+}
+
+.axis {
+	font-family: Ringside-Semibold, sans-serif;
+	stroke-opacity: 0;
+}
+
+.line {
+  fill: none;
+  stroke: #453C38;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.tooltip {
+	background-color: white;
+	font-family: Ringside-Semibold, sans-serif;
+	font-size: 12px;
+	position: absolute;			
+    text-align: left;													
+    pointer-events: none;			
+}
+
+div.tooltip {
+	padding: 12px 18px 5px 18px;				
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 1px #D0D0D0	;	
+}
+
+.tooltip h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.tooltip p {
+	font-weight: 400;
+	font-family: Ringside, sans-serif;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+p.description-text {
+	padding-bottom: 7px;
+}
+
+.grid line {
+	stroke: lightgrey;
+	stroke-opacity: 0.7;
+	shape-rendering: crispEdges;
+  }
+  
+  .grid path {
+	stroke-width: 0;
+  }
+
+div#album-container {
+	background-color: white;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 1px #D0D0D0	;	
+	height: 120px;
+	position: absolute;
+	z-index: 0;
+}
+
+.text-overlay {
+	position: absolute;
+	pointer-events: none;
+}
+
+text.music-text {
+	position: relative;
+	font-family: Ringside-Semibold, sans-serif;
+	font-size: 20px;
+}
+
+text.music-subtext {
+	fill: gray;
+}
+
+text.music-subsubtext {
+	fill: gray;
+	font-size: 12px;
+}

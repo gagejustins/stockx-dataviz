@@ -1,0 +1,33 @@
+
+#box_logo_sweatshirt-chart-container .axis {
+	font-family: Ringside, sans-serif;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+#box_logo_sweatshirt-chart-container .line {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+#box_logo_sweatshirt-chart-container .chart {
+  display: flex;
+  width: 100%;
+}
+
+#box_logo_sweatshirt-chart-container .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#box_logo_sweatshirt-chart-container .focus circle {
+  fill: none;
+  stroke: black;
+}
+
+#box_logo_sweatshirt-chart-container .focus text {
+  font-family: inherit, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}

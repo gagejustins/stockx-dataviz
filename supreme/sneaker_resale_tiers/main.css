@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Ringside";
+    src:url("fonts/RingsideCondensed-Semibold.otf");
+}
+
+body {
+	font-family: Futura, sans-serif;
+	font-style: italic;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+text.label_text {
+	font-family: Futura, sans-serif;
+	font-style: italic;
+}
+
+text.value_text {
+	font-family: Futura, sans-serif;
+	font-style: italic;
+	fill: white;
+	font-size: 1.05em;
+	text-anchor: middle;
+}
+
+.focus text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+.legend text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}

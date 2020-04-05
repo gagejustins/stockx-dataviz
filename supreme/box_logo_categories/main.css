@@ -1,0 +1,26 @@
+
+#box_logo_categories-chart-container .axis {
+	font-family: Futura, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#box_logo_categories-chart-container text.label_text {
+	font-family: Futura, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#box_logo_categories-chart-container .chart {
+	display: flex;
+	width: 100%;
+}
+
+#box_logo_categories-chart-container text.value_text {
+	font-family: Futura, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	fill: black;
+	font-size: 1.05em;
+	text-anchor: middle;
+}

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Ringside";
+    src:url("fonts/RingsideCondensed-Semibold.otf");
+}
+
+html {
+	background-color: #EAF4EB;
+}
+
+body {
+	padding: 10px 20px 10px 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.axis {
+	font-family: Ringside, sans-serif;
+	font-weight: bold;
+}
+
+.line {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: red;
+}
+
+.focus text {
+	font-family: Ringside, sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+text.shadow {
+    stroke: white;
+    stroke-width: 2.5px;
+    opacity: 0.9;
+}
+
+#chart {
+	height: 600px;
+	width: auto;
+	float: left;
+}
+
+#legend {
+	height: 500px;
+	float: right;
+	overflow-y: scroll;
+	z-index: 1;
+}
+
+.legend text {
+	font-family: Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}

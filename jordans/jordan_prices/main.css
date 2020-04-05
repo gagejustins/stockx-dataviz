@@ -1,0 +1,35 @@
+
+#jordan-prices-container .axis {
+  font-family: inherit, sans-serif;
+}
+
+#jordan-prices-container .line {
+  fill: none;
+  stroke: #509E2F;
+  stroke-width: 2px;
+}
+
+#jordan-prices-container .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#jordan-prices-container .focus circle {
+  fill: none;
+  stroke: #509E2F;
+}
+
+#jordan-prices-container .focus text {
+  font-family: inherit, sans-serif;
+  font-size: .8em;
+}
+
+#jordan-prices-container .legend text {
+  font-family: inherit, sans-serif;
+  font-size: .8em;
+}
+
+#jordan-prices-container .chart {
+  display: flex;
+  width: 950px;
+}

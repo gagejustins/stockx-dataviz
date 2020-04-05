@@ -1,0 +1,32 @@
+#collabs-chart .axis {
+	font-family: Ringside, sans-serif;
+	font-weight: bold;
+}
+
+#collabs-chart .line {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px;
+}
+
+#collabs-chart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#collabs-chart .focus circle {
+  fill: none;
+  stroke: red;
+}
+
+#collabs-chart .focus text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+#collabs-chart .legend text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}

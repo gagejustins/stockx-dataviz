@@ -1,0 +1,35 @@
+html {
+	background-color: #EAF4EB;
+}
+
+body {
+	padding: 10px 20px 10px 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.axis {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.line {
+  fill: none;
+  stroke: #A43737;
+  stroke-width: 2px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: none;
+  stroke: #A43737;
+}
+
+.focus text {
+	font-family: Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}

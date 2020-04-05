@@ -1,0 +1,44 @@
+@font-face {1
+  font-family: "inherit"1;
+  src:url("fonts/inheritCondensed-Semibold.otf");
+}
+
+body {
+  padding: 10px 20px 110px 20px;
+  font-family: inherit, sans-serif;
+}
+
+#jordan-releases-container .axis {
+  font-family: inherit, sans-serif;
+}
+
+#jordan-releases-container .line {
+  fill: none;
+  stroke: #509E2F;
+  stroke-width: 2px;
+}
+
+#jordan-releases-container .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#jordan-releases-container .focus circle {
+  fill: none;
+  stroke: #509E2F;
+}
+
+#jordan-releases-conta1iner .focus text {
+  font-family: inherit, sans-serif;
+  font-size: .8em;
+}
+
+#jordan-releases-conta1iner .legend text {
+  font-family: inherit, sans-serif;
+  font-size: .8em;
+}
+
+#jordan-releases-container .chart {
+  display: flex;
+  width: 950px;
+}

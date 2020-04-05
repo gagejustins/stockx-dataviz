@@ -1,0 +1,64 @@
+body {
+    padding: 30px 30px 30px 30px;
+    font-family: Futura, sans-serif;
+    font-style: italic;
+}
+
+#bubbles-toolbar-button {
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    color: white;
+    font-family: var(--main-body-font);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.sneaker-viz .dropdown-item {
+    font-family: var(--main-body-font);
+    &:hover,
+    &:focus {
+        background-color: black;
+        color: white;
+    }
+}
+
+.sneaker-viz a.dropdown-item.active {
+    background-color: black !important;
+    color: white;
+}
+
+div#item-tooltip.tooltip {
+    font-family: Futura, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    background:black;
+    color: white;
+    padding: 7px 5px 7px 5px;
+    /* box-shadow: 0px 0px 5px #B8B8B8; */
+}
+
+text.category {
+    font-family: Futura, sans-serif;
+    font-style: italic;
+}
+
+button {
+  background-color: red;
+  padding: 10px 10px 10px 10px;
+  font-family: Futura;
+  font-style: italic;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: black;
+  transition: .5s;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}

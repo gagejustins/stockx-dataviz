@@ -1,0 +1,22 @@
+#jordan-resale-tiers-container text.value_text {
+	fill: #509E2F;
+	font-size: 1.1em;
+	text-anchor: middle;
+}
+
+#jordan-resale-tiers-container .focus text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+#jordan-resale-tiers-container .legend text {
+	font-family: Ringside, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+#jordan-resale-tiers-container .chart {
+	display: flex;
+	width: 900px;
+}
