@@ -12,4 +12,4 @@ This is why I'm not a full time engineer. But at least it looks good!
 
 <img src="sample.gif" width="70%">
 
-Use to your heart's content under the [MIT License](https://opensource.org/licenses/MIT).
+Use to your heart's content under the [MIT License](LICENSE).
